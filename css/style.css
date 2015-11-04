@@ -1,0 +1,41 @@
+html,body{
+    width:100%;
+    height:100%;
+    
+    background-color: green;
+    
+    box-sizing:border;
+    
+}
+
+.die{
+    height: 10em;
+    width: 10em;
+    
+    display:flex;
+    
+    background-color: white;
+    
+    border: 2px solid black;
+    
+    margin:.1%;
+    
+    justify-content:flex-end;
+}
+
+span::before{
+    content:"";
+    
+    width:3em;
+    height:3em;
+    
+    color: black;
+    
+    display: inline-flex;
+    
+    background-color: black;
+    
+    border-radius: 10em;
+    
+    align-self:center;
+}
